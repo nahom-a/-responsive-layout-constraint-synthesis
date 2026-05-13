@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Test reports and transient artifacts
+tests/runner_report.json
+tests/runner_report_*.json
+*.log
+npm-debug.log*
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
