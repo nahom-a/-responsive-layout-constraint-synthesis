@@ -1,0 +1,30 @@
+{
+  "boxes": [
+    "header_deck",
+    "master_pane",
+    "detail_pane",
+    "flyout_dock",
+    "footer_deck"
+  ],
+  "textBearing": [],
+  "fixedIntrinsicW": {
+    "header_deck": 0,
+    "master_pane": 0,
+    "detail_pane": 0,
+    "flyout_dock": 0,
+    "footer_deck": 0
+  },
+  "fixedIntrinsicH": {
+    "header_deck": 55,
+    "master_pane": 280,
+    "detail_pane": 280,
+    "flyout_dock": 280,
+    "footer_deck": 45
+  },
+  "textLengthRange": {},
+  "constraintBudget": 33,
+  "referenceConstraintCount": 26,
+  "guideBudget": 2,
+  "difficultyTier": "priority-heavy",
+  "axisCoupled": false
+}
