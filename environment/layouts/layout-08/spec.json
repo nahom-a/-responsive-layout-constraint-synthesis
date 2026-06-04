@@ -1,0 +1,33 @@
+{
+  "boxes": [
+    "banner",
+    "hero_card",
+    "tile_1",
+    "tile_2",
+    "tile_3",
+    "dock"
+  ],
+  "textBearing": [],
+  "fixedIntrinsicW": {
+    "banner": 0,
+    "hero_card": 0,
+    "tile_1": 0,
+    "tile_2": 0,
+    "tile_3": 0,
+    "dock": 0
+  },
+  "fixedIntrinsicH": {
+    "banner": 50,
+    "hero_card": 180,
+    "tile_1": 140,
+    "tile_2": 140,
+    "tile_3": 140,
+    "dock": 40
+  },
+  "textLengthRange": {},
+  "constraintBudget": 36,
+  "referenceConstraintCount": 28,
+  "guideBudget": 2,
+  "difficultyTier": "simple",
+  "axisCoupled": false
+}
