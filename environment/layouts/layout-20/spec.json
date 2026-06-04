@@ -1,0 +1,38 @@
+{
+  "boxes": [
+    "masthead_banner",
+    "nav_rail",
+    "main_article",
+    "hero_aside",
+    "action_deck",
+    "colophon_footer"
+  ],
+  "textBearing": [
+    "main_article"
+  ],
+  "fixedIntrinsicW": {
+    "masthead_banner": 0,
+    "nav_rail": 0,
+    "main_article": 0,
+    "hero_aside": 0,
+    "action_deck": 0,
+    "colophon_footer": 0
+  },
+  "fixedIntrinsicH": {
+    "masthead_banner": 70,
+    "hero_aside": 120,
+    "action_deck": 90,
+    "colophon_footer": 40
+  },
+  "textLengthRange": {
+    "main_article": [
+      50,
+      380
+    ]
+  },
+  "constraintBudget": 34,
+  "referenceConstraintCount": 26,
+  "guideBudget": 1,
+  "difficultyTier": "axis-coupled",
+  "axisCoupled": true
+}
