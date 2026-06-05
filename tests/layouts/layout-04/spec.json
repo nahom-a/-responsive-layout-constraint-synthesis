@@ -1,0 +1,30 @@
+{
+  "boxes": [
+    "masthead",
+    "nav_rail",
+    "stage",
+    "inspector",
+    "footer_bar"
+  ],
+  "textBearing": [],
+  "fixedIntrinsicW": {
+    "masthead": 0,
+    "nav_rail": 0,
+    "stage": 0,
+    "inspector": 0,
+    "footer_bar": 0
+  },
+  "fixedIntrinsicH": {
+    "masthead": 60,
+    "nav_rail": 300,
+    "stage": 300,
+    "inspector": 300,
+    "footer_bar": 40
+  },
+  "textLengthRange": {},
+  "constraintBudget": 31,
+  "referenceConstraintCount": 24,
+  "guideBudget": 1,
+  "difficultyTier": "simple",
+  "axisCoupled": false
+}

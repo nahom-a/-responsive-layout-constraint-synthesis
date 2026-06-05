@@ -1,0 +1,50 @@
+{
+  "boxes": [
+    "top_bar",
+    "nav0",
+    "nav1",
+    "nav2",
+    "nav3",
+    "nav4",
+    "sidebar_rail",
+    "content_stage",
+    "summary_dock",
+    "footer_strip"
+  ],
+  "textBearing": [
+    "content_stage"
+  ],
+  "fixedIntrinsicW": {
+    "top_bar": 0,
+    "nav0": 0,
+    "nav1": 0,
+    "nav2": 0,
+    "nav3": 0,
+    "nav4": 0,
+    "sidebar_rail": 0,
+    "content_stage": 0,
+    "summary_dock": 0,
+    "footer_strip": 0
+  },
+  "fixedIntrinsicH": {
+    "top_bar": 60,
+    "summary_dock": 80,
+    "footer_strip": 40,
+    "nav0": 48,
+    "nav1": 48,
+    "nav2": 48,
+    "nav3": 48,
+    "nav4": 48
+  },
+  "textLengthRange": {
+    "content_stage": [
+      60,
+      360
+    ]
+  },
+  "constraintBudget": 58,
+  "referenceConstraintCount": 46,
+  "guideBudget": 3,
+  "difficultyTier": "axis-coupled",
+  "axisCoupled": true
+}

@@ -1,0 +1,10819 @@
+{
+  "layout-01": {
+    "guides": [
+      "col_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.h",
+            1
+          ],
+          [
+            "masthead.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.h",
+            1
+          ],
+          [
+            "stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "stage.x",
+            -1
+          ],
+          [
+            "stage.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "inspector.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.y",
+            1
+          ],
+          [
+            "stage.y",
+            -1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.h",
+            1
+          ],
+          [
+            "footer_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            5
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 500
+      },
+      {
+        "lhs": [
+          [
+            "col_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-02": {
+    "guides": [
+      "cardW",
+      "gapGuide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.h",
+            1
+          ],
+          [
+            "banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.y",
+            1
+          ],
+          [
+            "banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.h",
+            1
+          ],
+          [
+            "hero_card.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.y",
+            1
+          ],
+          [
+            "hero_card.y",
+            -1
+          ],
+          [
+            "hero_card.h",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.h",
+            1
+          ],
+          [
+            "tile_1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.x",
+            1
+          ],
+          [
+            "tile_1.x",
+            -1
+          ],
+          [
+            "tile_1.w",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.h",
+            1
+          ],
+          [
+            "tile_2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.x",
+            1
+          ],
+          [
+            "tile_2.x",
+            -1
+          ],
+          [
+            "tile_2.w",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.h",
+            1
+          ],
+          [
+            "tile_3.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.x",
+            1
+          ],
+          [
+            "tile_3.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ],
+          [
+            "tile_1.h",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.h",
+            1
+          ],
+          [
+            "dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "cardW",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "cardW",
+            1
+          ]
+        ],
+        "rhs": 360,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "gapGuide",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-04": {
+    "guides": [
+      "col_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.h",
+            1
+          ],
+          [
+            "masthead.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.h",
+            1
+          ],
+          [
+            "stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "stage.x",
+            -1
+          ],
+          [
+            "stage.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "inspector.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.y",
+            1
+          ],
+          [
+            "stage.y",
+            -1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.h",
+            1
+          ],
+          [
+            "footer_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 140,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 260,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 500
+      },
+      {
+        "lhs": [
+          [
+            "col_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-05": {
+    "guides": [
+      "col_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.h",
+            1
+          ],
+          [
+            "masthead.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.h",
+            1
+          ],
+          [
+            "stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "stage.x",
+            -1
+          ],
+          [
+            "stage.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "inspector.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.y",
+            1
+          ],
+          [
+            "stage.y",
+            -1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.h",
+            1
+          ],
+          [
+            "footer_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 180,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 280,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 500
+      },
+      {
+        "lhs": [
+          [
+            "col_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-06": {
+    "guides": [
+      "col_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead.h",
+            1
+          ],
+          [
+            "masthead.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.y",
+            1
+          ],
+          [
+            "masthead.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.h",
+            1
+          ],
+          [
+            "stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.h",
+            1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "stage.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "stage.x",
+            -1
+          ],
+          [
+            "stage.w",
+            -1
+          ],
+          [
+            "col_gap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "inspector.x",
+            1
+          ],
+          [
+            "inspector.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.y",
+            1
+          ],
+          [
+            "stage.y",
+            -1
+          ],
+          [
+            "stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_bar.h",
+            1
+          ],
+          [
+            "footer_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 120,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "inspector.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 500
+      },
+      {
+        "lhs": [
+          [
+            "col_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-07": {
+    "guides": [
+      "cardW",
+      "gapGuide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.h",
+            1
+          ],
+          [
+            "banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.y",
+            1
+          ],
+          [
+            "banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.h",
+            1
+          ],
+          [
+            "hero_card.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.y",
+            1
+          ],
+          [
+            "hero_card.y",
+            -1
+          ],
+          [
+            "hero_card.h",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.h",
+            1
+          ],
+          [
+            "tile_1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.x",
+            1
+          ],
+          [
+            "tile_1.x",
+            -1
+          ],
+          [
+            "tile_1.w",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.h",
+            1
+          ],
+          [
+            "tile_2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.x",
+            1
+          ],
+          [
+            "tile_2.x",
+            -1
+          ],
+          [
+            "tile_2.w",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.h",
+            1
+          ],
+          [
+            "tile_3.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.x",
+            1
+          ],
+          [
+            "tile_3.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ],
+          [
+            "tile_1.h",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.h",
+            1
+          ],
+          [
+            "dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "cardW",
+            1
+          ]
+        ],
+        "rhs": 140,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "cardW",
+            1
+          ]
+        ],
+        "rhs": 300,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "gapGuide",
+            1
+          ]
+        ],
+        "rhs": 50,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-08": {
+    "guides": [
+      "cardW",
+      "gapGuide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "banner.h",
+            1
+          ],
+          [
+            "banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.y",
+            1
+          ],
+          [
+            "banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_card.h",
+            1
+          ],
+          [
+            "hero_card.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.y",
+            1
+          ],
+          [
+            "hero_card.y",
+            -1
+          ],
+          [
+            "hero_card.h",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.h",
+            1
+          ],
+          [
+            "tile_1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_1.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.x",
+            1
+          ],
+          [
+            "tile_1.x",
+            -1
+          ],
+          [
+            "tile_1.w",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.h",
+            1
+          ],
+          [
+            "tile_2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_2.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.x",
+            1
+          ],
+          [
+            "tile_2.x",
+            -1
+          ],
+          [
+            "tile_2.w",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.h",
+            1
+          ],
+          [
+            "tile_3.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.w",
+            1
+          ],
+          [
+            "cardW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tile_3.x",
+            1
+          ],
+          [
+            "tile_3.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.y",
+            1
+          ],
+          [
+            "tile_1.y",
+            -1
+          ],
+          [
+            "tile_1.h",
+            -1
+          ],
+          [
+            "gapGuide",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock.h",
+            1
+          ],
+          [
+            "dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "cardW",
+            1
+          ]
+        ],
+        "rhs": 180,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "cardW",
+            1
+          ]
+        ],
+        "rhs": 340,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "gapGuide",
+            1
+          ]
+        ],
+        "rhs": 50,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-09": {
+    "guides": [
+      "gutter"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_menubar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.h",
+            1
+          ],
+          [
+            "top_menubar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.w",
+            1
+          ]
+        ],
+        "rhs": 48,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.x",
+            1
+          ],
+          [
+            "activity_strip.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.x",
+            1
+          ],
+          [
+            "tree_sidebar.x",
+            -1
+          ],
+          [
+            "tree_sidebar.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.h",
+            1
+          ],
+          [
+            "code_editor.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "code_editor.x",
+            -1
+          ],
+          [
+            "code_editor.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "tool_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.y",
+            1
+          ],
+          [
+            "code_editor.y",
+            -1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.h",
+            1
+          ],
+          [
+            "console_panel.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.y",
+            1
+          ],
+          [
+            "console_panel.y",
+            -1
+          ],
+          [
+            "console_panel.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.h",
+            1
+          ],
+          [
+            "status_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 140,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 220,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            5
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "gutter",
+            1
+          ]
+        ],
+        "rhs": 16,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-10": {
+    "guides": [
+      "gutter"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_menubar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.h",
+            1
+          ],
+          [
+            "top_menubar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.w",
+            1
+          ]
+        ],
+        "rhs": 48,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.x",
+            1
+          ],
+          [
+            "activity_strip.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.x",
+            1
+          ],
+          [
+            "tree_sidebar.x",
+            -1
+          ],
+          [
+            "tree_sidebar.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.h",
+            1
+          ],
+          [
+            "code_editor.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "code_editor.x",
+            -1
+          ],
+          [
+            "code_editor.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "tool_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.y",
+            1
+          ],
+          [
+            "code_editor.y",
+            -1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.h",
+            1
+          ],
+          [
+            "console_panel.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.y",
+            1
+          ],
+          [
+            "console_panel.y",
+            -1
+          ],
+          [
+            "console_panel.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.h",
+            1
+          ],
+          [
+            "status_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 140,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 260,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "gutter",
+            1
+          ]
+        ],
+        "rhs": 16,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-11": {
+    "guides": [
+      "gutter"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_menubar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.h",
+            1
+          ],
+          [
+            "top_menubar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.w",
+            1
+          ]
+        ],
+        "rhs": 48,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.x",
+            1
+          ],
+          [
+            "activity_strip.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.x",
+            1
+          ],
+          [
+            "tree_sidebar.x",
+            -1
+          ],
+          [
+            "tree_sidebar.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.h",
+            1
+          ],
+          [
+            "code_editor.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "code_editor.x",
+            -1
+          ],
+          [
+            "code_editor.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "tool_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.y",
+            1
+          ],
+          [
+            "code_editor.y",
+            -1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.h",
+            1
+          ],
+          [
+            "console_panel.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.y",
+            1
+          ],
+          [
+            "console_panel.y",
+            -1
+          ],
+          [
+            "console_panel.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.h",
+            1
+          ],
+          [
+            "status_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 180,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 260,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 120,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "gutter",
+            1
+          ]
+        ],
+        "rhs": 16,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-12": {
+    "guides": [
+      "gutter"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_menubar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_menubar.h",
+            1
+          ],
+          [
+            "top_menubar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.w",
+            1
+          ]
+        ],
+        "rhs": 48,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "activity_strip.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.x",
+            1
+          ],
+          [
+            "activity_strip.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.x",
+            1
+          ],
+          [
+            "tree_sidebar.x",
+            -1
+          ],
+          [
+            "tree_sidebar.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "code_editor.h",
+            1
+          ],
+          [
+            "code_editor.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "code_editor.x",
+            -1
+          ],
+          [
+            "code_editor.w",
+            -1
+          ],
+          [
+            "gutter",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.y",
+            1
+          ],
+          [
+            "top_menubar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.h",
+            1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.x",
+            1
+          ],
+          [
+            "tool_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.y",
+            1
+          ],
+          [
+            "code_editor.y",
+            -1
+          ],
+          [
+            "code_editor.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "console_panel.h",
+            1
+          ],
+          [
+            "console_panel.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.y",
+            1
+          ],
+          [
+            "console_panel.y",
+            -1
+          ],
+          [
+            "console_panel.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "status_bar.h",
+            1
+          ],
+          [
+            "status_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 120,
+        "op": ">=",
+        "priority": 850
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": "<=",
+        "priority": 650
+      },
+      {
+        "lhs": [
+          [
+            "tree_sidebar.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "tool_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "gutter",
+            1
+          ]
+        ],
+        "rhs": 16,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-13": {
+    "guides": [
+      "sideMargin",
+      "paneGap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "header_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.h",
+            1
+          ],
+          [
+            "header_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.h",
+            1
+          ],
+          [
+            "detail_pane.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.x",
+            1
+          ],
+          [
+            "sideMargin",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.x",
+            1
+          ],
+          [
+            "master_pane.x",
+            -1
+          ],
+          [
+            "master_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "detail_pane.x",
+            -1
+          ],
+          [
+            "detail_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "flyout_dock.w",
+            1
+          ],
+          [
+            "sideMargin",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.y",
+            1
+          ],
+          [
+            "detail_pane.y",
+            -1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.h",
+            1
+          ],
+          [
+            "footer_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 24,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 48,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            1
+          ]
+        ],
+        "rhs": 180,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 140,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 220,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "paneGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-14": {
+    "guides": [
+      "sideMargin",
+      "paneGap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "header_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.h",
+            1
+          ],
+          [
+            "header_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.h",
+            1
+          ],
+          [
+            "detail_pane.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.x",
+            1
+          ],
+          [
+            "sideMargin",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.x",
+            1
+          ],
+          [
+            "master_pane.x",
+            -1
+          ],
+          [
+            "master_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "detail_pane.x",
+            -1
+          ],
+          [
+            "detail_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "flyout_dock.w",
+            1
+          ],
+          [
+            "sideMargin",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.y",
+            1
+          ],
+          [
+            "detail_pane.y",
+            -1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.h",
+            1
+          ],
+          [
+            "footer_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 32,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 64,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "paneGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-15": {
+    "guides": [
+      "sideMargin",
+      "paneGap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "header_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.h",
+            1
+          ],
+          [
+            "header_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.h",
+            1
+          ],
+          [
+            "detail_pane.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.x",
+            1
+          ],
+          [
+            "sideMargin",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.x",
+            1
+          ],
+          [
+            "master_pane.x",
+            -1
+          ],
+          [
+            "master_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "detail_pane.x",
+            -1
+          ],
+          [
+            "detail_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "flyout_dock.w",
+            1
+          ],
+          [
+            "sideMargin",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.y",
+            1
+          ],
+          [
+            "detail_pane.y",
+            -1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.h",
+            1
+          ],
+          [
+            "footer_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 50,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 120,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "paneGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-16": {
+    "guides": [
+      "sideMargin",
+      "paneGap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "header_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "header_deck.h",
+            1
+          ],
+          [
+            "header_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.y",
+            1
+          ],
+          [
+            "header_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.h",
+            1
+          ],
+          [
+            "detail_pane.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.h",
+            1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.x",
+            1
+          ],
+          [
+            "sideMargin",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "detail_pane.x",
+            1
+          ],
+          [
+            "master_pane.x",
+            -1
+          ],
+          [
+            "master_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "detail_pane.x",
+            -1
+          ],
+          [
+            "detail_pane.w",
+            -1
+          ],
+          [
+            "paneGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.x",
+            1
+          ],
+          [
+            "flyout_dock.w",
+            1
+          ],
+          [
+            "sideMargin",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.y",
+            1
+          ],
+          [
+            "detail_pane.y",
+            -1
+          ],
+          [
+            "detail_pane.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_deck.h",
+            1
+          ],
+          [
+            "footer_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 40,
+        "op": ">=",
+        "priority": 900
+      },
+      {
+        "lhs": [
+          [
+            "sideMargin",
+            1
+          ]
+        ],
+        "rhs": 80,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            1
+          ]
+        ],
+        "rhs": 220,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "master_pane.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 750
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            1
+          ]
+        ],
+        "rhs": 280,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "flyout_dock.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 450
+      },
+      {
+        "lhs": [
+          [
+            "paneGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-03": {
+    "guides": [
+      "deck_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead_banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.h",
+            1
+          ],
+          [
+            "masthead_banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.w",
+            1
+          ],
+          [
+            "nav_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.h",
+            1
+          ],
+          [
+            "main_article.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.y",
+            1
+          ],
+          [
+            "main_article.y",
+            -1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.h",
+            1
+          ],
+          [
+            "hero_aside.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.y",
+            1
+          ],
+          [
+            "hero_aside.y",
+            -1
+          ],
+          [
+            "hero_aside.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.h",
+            1
+          ],
+          [
+            "action_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.y",
+            1
+          ],
+          [
+            "action_deck.y",
+            -1
+          ],
+          [
+            "action_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.h",
+            1
+          ],
+          [
+            "colophon_footer.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 350
+      },
+      {
+        "lhs": [
+          [
+            "deck_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-17": {
+    "guides": [
+      "deck_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead_banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.h",
+            1
+          ],
+          [
+            "masthead_banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.w",
+            1
+          ],
+          [
+            "nav_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.h",
+            1
+          ],
+          [
+            "main_article.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.y",
+            1
+          ],
+          [
+            "main_article.y",
+            -1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.h",
+            1
+          ],
+          [
+            "hero_aside.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.y",
+            1
+          ],
+          [
+            "hero_aside.y",
+            -1
+          ],
+          [
+            "hero_aside.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.h",
+            1
+          ],
+          [
+            "action_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.y",
+            1
+          ],
+          [
+            "action_deck.y",
+            -1
+          ],
+          [
+            "action_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.h",
+            1
+          ],
+          [
+            "colophon_footer.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 350
+      },
+      {
+        "lhs": [
+          [
+            "deck_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-18": {
+    "guides": [
+      "deck_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead_banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.h",
+            1
+          ],
+          [
+            "masthead_banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.w",
+            1
+          ],
+          [
+            "nav_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.h",
+            1
+          ],
+          [
+            "main_article.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.y",
+            1
+          ],
+          [
+            "main_article.y",
+            -1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.h",
+            1
+          ],
+          [
+            "hero_aside.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.y",
+            1
+          ],
+          [
+            "hero_aside.y",
+            -1
+          ],
+          [
+            "hero_aside.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.h",
+            1
+          ],
+          [
+            "action_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.y",
+            1
+          ],
+          [
+            "action_deck.y",
+            -1
+          ],
+          [
+            "action_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.h",
+            1
+          ],
+          [
+            "colophon_footer.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 280,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 350
+      },
+      {
+        "lhs": [
+          [
+            "deck_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-19": {
+    "guides": [
+      "deck_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead_banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.h",
+            1
+          ],
+          [
+            "masthead_banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.w",
+            1
+          ],
+          [
+            "nav_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.h",
+            1
+          ],
+          [
+            "main_article.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.y",
+            1
+          ],
+          [
+            "main_article.y",
+            -1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.h",
+            1
+          ],
+          [
+            "hero_aside.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.y",
+            1
+          ],
+          [
+            "hero_aside.y",
+            -1
+          ],
+          [
+            "hero_aside.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.h",
+            1
+          ],
+          [
+            "action_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.y",
+            1
+          ],
+          [
+            "action_deck.y",
+            -1
+          ],
+          [
+            "action_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.h",
+            1
+          ],
+          [
+            "colophon_footer.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 320,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 350
+      },
+      {
+        "lhs": [
+          [
+            "deck_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-20": {
+    "guides": [
+      "deck_gap"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "masthead_banner.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "masthead_banner.h",
+            1
+          ],
+          [
+            "masthead_banner.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.x",
+            1
+          ],
+          [
+            "nav_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.y",
+            1
+          ],
+          [
+            "masthead_banner.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.w",
+            1
+          ],
+          [
+            "nav_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "main_article.h",
+            1
+          ],
+          [
+            "main_article.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.h",
+            1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.y",
+            1
+          ],
+          [
+            "main_article.y",
+            -1
+          ],
+          [
+            "main_article.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "hero_aside.h",
+            1
+          ],
+          [
+            "hero_aside.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.y",
+            1
+          ],
+          [
+            "hero_aside.y",
+            -1
+          ],
+          [
+            "hero_aside.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "action_deck.h",
+            1
+          ],
+          [
+            "action_deck.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.y",
+            1
+          ],
+          [
+            "action_deck.y",
+            -1
+          ],
+          [
+            "action_deck.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "colophon_footer.h",
+            1
+          ],
+          [
+            "colophon_footer.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "nav_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 350
+      },
+      {
+        "lhs": [
+          [
+            "deck_gap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      }
+    ]
+  },
+  "layout-21": {
+    "guides": [
+      "navW",
+      "navGap",
+      "dock_guide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.h",
+            1
+          ],
+          [
+            "top_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.h",
+            1
+          ],
+          [
+            "nav0.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.h",
+            1
+          ],
+          [
+            "nav1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.h",
+            1
+          ],
+          [
+            "nav2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.x",
+            1
+          ],
+          [
+            "nav0.x",
+            -1
+          ],
+          [
+            "nav0.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.x",
+            1
+          ],
+          [
+            "nav1.x",
+            -1
+          ],
+          [
+            "nav1.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.x",
+            1
+          ],
+          [
+            "nav2.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 160,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 360,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "navGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.y",
+            1
+          ],
+          [
+            "nav0.y",
+            -1
+          ],
+          [
+            "nav0.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.x",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.y",
+            1
+          ],
+          [
+            "sidebar_rail.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.w",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.h",
+            1
+          ],
+          [
+            "content_stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.h",
+            1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            1
+          ]
+        ],
+        "rhs": 240,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.y",
+            1
+          ],
+          [
+            "content_stage.y",
+            -1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.h",
+            1
+          ],
+          [
+            "summary_dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.y",
+            1
+          ],
+          [
+            "summary_dock.y",
+            -1
+          ],
+          [
+            "summary_dock.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.h",
+            1
+          ],
+          [
+            "footer_strip.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock_guide",
+            1
+          ]
+        ],
+        "rhs": 24,
+        "op": "==",
+        "priority": 250
+      }
+    ]
+  },
+  "layout-22": {
+    "guides": [
+      "navW",
+      "navGap",
+      "dock_guide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.h",
+            1
+          ],
+          [
+            "top_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.h",
+            1
+          ],
+          [
+            "nav0.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.h",
+            1
+          ],
+          [
+            "nav1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.h",
+            1
+          ],
+          [
+            "nav2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.h",
+            1
+          ],
+          [
+            "nav3.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.x",
+            1
+          ],
+          [
+            "nav0.x",
+            -1
+          ],
+          [
+            "nav0.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.x",
+            1
+          ],
+          [
+            "nav1.x",
+            -1
+          ],
+          [
+            "nav1.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.x",
+            1
+          ],
+          [
+            "nav2.x",
+            -1
+          ],
+          [
+            "nav2.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.x",
+            1
+          ],
+          [
+            "nav3.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 125,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 205,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "navGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.y",
+            1
+          ],
+          [
+            "nav0.y",
+            -1
+          ],
+          [
+            "nav0.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.x",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.y",
+            1
+          ],
+          [
+            "sidebar_rail.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.w",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.h",
+            1
+          ],
+          [
+            "content_stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.h",
+            1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.y",
+            1
+          ],
+          [
+            "content_stage.y",
+            -1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.h",
+            1
+          ],
+          [
+            "summary_dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.y",
+            1
+          ],
+          [
+            "summary_dock.y",
+            -1
+          ],
+          [
+            "summary_dock.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.h",
+            1
+          ],
+          [
+            "footer_strip.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock_guide",
+            1
+          ]
+        ],
+        "rhs": 24,
+        "op": "==",
+        "priority": 250
+      }
+    ]
+  },
+  "layout-23": {
+    "guides": [
+      "navW",
+      "navGap",
+      "dock_guide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.h",
+            1
+          ],
+          [
+            "top_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.h",
+            1
+          ],
+          [
+            "nav0.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.h",
+            1
+          ],
+          [
+            "nav1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.h",
+            1
+          ],
+          [
+            "nav2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.h",
+            1
+          ],
+          [
+            "nav3.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.h",
+            1
+          ],
+          [
+            "nav4.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.x",
+            1
+          ],
+          [
+            "nav0.x",
+            -1
+          ],
+          [
+            "nav0.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.x",
+            1
+          ],
+          [
+            "nav1.x",
+            -1
+          ],
+          [
+            "nav1.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.x",
+            1
+          ],
+          [
+            "nav2.x",
+            -1
+          ],
+          [
+            "nav2.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.x",
+            1
+          ],
+          [
+            "nav3.x",
+            -1
+          ],
+          [
+            "nav3.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.x",
+            1
+          ],
+          [
+            "nav4.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 120,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "navGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.y",
+            1
+          ],
+          [
+            "nav0.y",
+            -1
+          ],
+          [
+            "nav0.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.x",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.y",
+            1
+          ],
+          [
+            "sidebar_rail.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.w",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.h",
+            1
+          ],
+          [
+            "content_stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.h",
+            1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            1
+          ]
+        ],
+        "rhs": 280,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.y",
+            1
+          ],
+          [
+            "content_stage.y",
+            -1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.h",
+            1
+          ],
+          [
+            "summary_dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.y",
+            1
+          ],
+          [
+            "summary_dock.y",
+            -1
+          ],
+          [
+            "summary_dock.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.h",
+            1
+          ],
+          [
+            "footer_strip.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock_guide",
+            1
+          ]
+        ],
+        "rhs": 24,
+        "op": "==",
+        "priority": 250
+      }
+    ]
+  },
+  "layout-24": {
+    "guides": [
+      "navW",
+      "navGap",
+      "dock_guide"
+    ],
+    "constraints": [
+      {
+        "lhs": [
+          [
+            "top_bar.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.y",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "top_bar.h",
+            1
+          ],
+          [
+            "top_bar.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.h",
+            1
+          ],
+          [
+            "nav0.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.h",
+            1
+          ],
+          [
+            "nav1.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.h",
+            1
+          ],
+          [
+            "nav2.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.h",
+            1
+          ],
+          [
+            "nav3.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.h",
+            1
+          ],
+          [
+            "nav4.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav5.y",
+            1
+          ],
+          [
+            "top_bar.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav5.h",
+            1
+          ],
+          [
+            "nav5.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav5.w",
+            1
+          ],
+          [
+            "navW",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav0.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav1.x",
+            1
+          ],
+          [
+            "nav0.x",
+            -1
+          ],
+          [
+            "nav0.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav2.x",
+            1
+          ],
+          [
+            "nav1.x",
+            -1
+          ],
+          [
+            "nav1.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav3.x",
+            1
+          ],
+          [
+            "nav2.x",
+            -1
+          ],
+          [
+            "nav2.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav4.x",
+            1
+          ],
+          [
+            "nav3.x",
+            -1
+          ],
+          [
+            "nav3.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav5.x",
+            1
+          ],
+          [
+            "nav4.x",
+            -1
+          ],
+          [
+            "nav4.w",
+            -1
+          ],
+          [
+            "navGap",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "nav5.x",
+            1
+          ],
+          [
+            "nav5.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 130,
+        "op": ">=",
+        "priority": 800
+      },
+      {
+        "lhs": [
+          [
+            "navW",
+            1
+          ]
+        ],
+        "rhs": 190,
+        "op": "<=",
+        "priority": 600
+      },
+      {
+        "lhs": [
+          [
+            "navGap",
+            1
+          ]
+        ],
+        "rhs": 20,
+        "op": "==",
+        "priority": 300
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.y",
+            1
+          ],
+          [
+            "nav0.y",
+            -1
+          ],
+          [
+            "nav0.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.x",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.y",
+            1
+          ],
+          [
+            "sidebar_rail.y",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.w",
+            1
+          ],
+          [
+            "sidebar_rail.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "content_stage.h",
+            1
+          ],
+          [
+            "content_stage.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.h",
+            1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            1
+          ]
+        ],
+        "rhs": 200,
+        "op": ">=",
+        "priority": 700
+      },
+      {
+        "lhs": [
+          [
+            "sidebar_rail.w",
+            4
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": 400
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.y",
+            1
+          ],
+          [
+            "content_stage.y",
+            -1
+          ],
+          [
+            "content_stage.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "summary_dock.h",
+            1
+          ],
+          [
+            "summary_dock.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.x",
+            1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.y",
+            1
+          ],
+          [
+            "summary_dock.y",
+            -1
+          ],
+          [
+            "summary_dock.h",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.w",
+            1
+          ],
+          [
+            "viewport.w",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "footer_strip.h",
+            1
+          ],
+          [
+            "footer_strip.intrinsicH",
+            -1
+          ]
+        ],
+        "rhs": 0,
+        "op": "==",
+        "priority": "required"
+      },
+      {
+        "lhs": [
+          [
+            "dock_guide",
+            1
+          ]
+        ],
+        "rhs": 24,
+        "op": "==",
+        "priority": 250
+      }
+    ]
+  }
+}

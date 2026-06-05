@@ -1,0 +1,36 @@
+{
+  "boxes": [
+    "top_menubar",
+    "activity_strip",
+    "tree_sidebar",
+    "code_editor",
+    "tool_dock",
+    "console_panel",
+    "status_bar"
+  ],
+  "textBearing": [],
+  "fixedIntrinsicW": {
+    "top_menubar": 0,
+    "activity_strip": 48,
+    "tree_sidebar": 0,
+    "code_editor": 0,
+    "tool_dock": 0,
+    "console_panel": 0,
+    "status_bar": 0
+  },
+  "fixedIntrinsicH": {
+    "top_menubar": 45,
+    "activity_strip": 320,
+    "tree_sidebar": 320,
+    "code_editor": 320,
+    "tool_dock": 320,
+    "console_panel": 120,
+    "status_bar": 35
+  },
+  "textLengthRange": {},
+  "constraintBudget": 42,
+  "referenceConstraintCount": 33,
+  "guideBudget": 1,
+  "difficultyTier": "priority-heavy",
+  "axisCoupled": false
+}
