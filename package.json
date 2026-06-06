@@ -1,0 +1,31 @@
+{
+  "name": "layout-constraint-synthesis",
+  "version": "1.0.0",
+  "description": "Exact rational linear constraint solver and inverse responsive layout synthesis engine",
+  "main": "environment/solve.js",
+  "scripts": {
+    "build:corpus": "node solution/build_corpus.mjs",
+    "test": "node tests/prebuild_identifiability.mjs && node solution/verify_direction_b.mjs && node solution/verify_direction_a.mjs && node cheat/run_cheats.mjs",
+    "test:identifiability": "node tests/prebuild_identifiability.mjs",
+    "test:adversarial": "node solution/verify_direction_a.mjs",
+    "test:reformulation": "node solution/verify_direction_b.mjs",
+    "test:security": "node cheat/run_cheats.mjs",
+    "test:runner": "node -e \"process.env.SYSTEMS_JSON_PATH = 'solution/reference-systems.json'; import('./tests/runner.mjs');\""
+  },
+  "keywords": [
+    "constraint-solver",
+    "cassowary",
+    "simplex",
+    "layout-engine",
+    "responsive-design",
+    "bigint",
+    "exact-arithmetic",
+    "computational-geometry",
+    "formal-verification"
+  ],
+  "author": "Nahom Abera",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
